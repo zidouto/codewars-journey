@@ -19,5 +19,3 @@ function friend(friends){
     }
     return myFriends
 }
-
-console.log(friend(["Ryan", "Kieran", "Jason", "Yous"]))
