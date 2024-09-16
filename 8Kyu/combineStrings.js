@@ -6,8 +6,6 @@ Example:
 With "James" as the first name and "Stevens" as the last name should return "James Stevens"
 */
 
-function combineNames(name1, name2){
+function combineNames(name1, name2) {
     return `${name1} ${name2}`
 }
-
-console.log(combineNames('James', 'Steven'))
