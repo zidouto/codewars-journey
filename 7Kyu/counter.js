@@ -21,4 +21,3 @@ function counter(){
     }
 }
 const use = counter()
-console.log(use())
