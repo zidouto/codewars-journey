@@ -9,6 +9,3 @@ function descendingOrder(n) {
     
     return result;
 }
-
-console.log(descendingOrder(12342)); // Output: 43221
-console.log(descendingOrder(34625)); // Output: 65432
