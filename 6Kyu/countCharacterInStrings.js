@@ -21,5 +21,4 @@ function count(str) {
     return counts;
 }
 
-console.log(count('asdasdasdasdas'))
 console.log(count('NotNyoutperfect'))
