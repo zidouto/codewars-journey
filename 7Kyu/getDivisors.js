@@ -15,9 +15,9 @@ The numbers between parentheses are shown only for you to see which numbers are 
 */
 //Code by Me
 function getDivisorsCnt(n) {
-    result= []
-    for (let i = 0 ; i <= n ; i++){
-        if (n % i === 0){
+    result = []
+    for (let i = 0; i <= n; i++) {
+        if (n % i === 0) {
             result.push(i)
         }
     }
@@ -41,5 +41,4 @@ function getDivisorsCnt(n) {
 
 console.log(getDivisorsCnt(26))
 console.log(getDivisorsCnt(5))
-console.log(getDivisorsCnt(7))
 console.log(getDivisorsCnt(1053))
