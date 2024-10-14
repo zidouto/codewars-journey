@@ -26,7 +26,7 @@ function getDivisorsCnt(n) {
 
 //Code by GPT
 function getDivisorsCnt(n) {
-    if (n < 1) return 0; // Handle the case for n less than 1
+    if (n < 1) return 0;
     let count = 0;
     for (let i = 1; i <= Math.sqrt(n); i++) {
         if (n % i === 0) {
