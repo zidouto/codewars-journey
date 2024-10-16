@@ -4,3 +4,4 @@ function average(scores) {
 }
 
 console.log(average([90,98,89,100,100,86,94]))
+console.log(average([24,346,6,346,24,7]))
