@@ -3,6 +3,5 @@ function average(scores) {
     return Math.round(sum / scores.length);
 }
 
-console.log(average([90,98,89,100,100,86,94]))
-console.log(average([24,346,6,346,24,7]))
-console.log(average([24,346,6,346,4,7]))
+console.log(average([90, 98, 89, 100, 100, 86, 94]))
+console.log(average([24, 346, 6, 346, 24, 7]))
