@@ -22,3 +22,4 @@ function vowelIndices(word) {
 }
 
 console.log((vowelIndices('asdkoasdlam')))
+console.log((vowelIndices('YUSIFHjkfndsifnk')))
