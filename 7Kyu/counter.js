@@ -21,3 +21,4 @@ function counter(){
     }
 }
 const use = counter()
+use()
