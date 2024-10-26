@@ -14,11 +14,10 @@ In other words, a closure gives you access to an outer function's scope from an 
 In JavaScript, closures are created every time a function is created, at function creation time.
 */
 
-function counter(){
-    let c = 1; 
-    return function() {
+function counter() {
+    let c = 1;
+    return function () {
         return c++
     }
 }
 const use = counter()
-use()
