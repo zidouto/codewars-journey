@@ -40,4 +40,3 @@ function getDivisorsCnt(n) {
 }
 
 console.log(getDivisorsCnt(1053))
-console.log(getDivisorsCnt(403))
